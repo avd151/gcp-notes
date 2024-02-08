@@ -1,7 +1,16 @@
 # gcp-notes
-Google Cloud Engineering Notes
+Google Cloud Notes
 
-# List of Courses and Learning Paths 
+## Google Cloud Certified Associate Cloud Engineer Exam Prep 
+1. Preparing for Associate Cloud Engineer Journey
+2. Google Cloud Fundamentals - Core Infrastructure
+3. Essential Google Cloud Infrastructure - Foundations
+4. Essential Google Cloud Infrastructure - Core services
+5. Elastic Google Cloud Infrastructure - Scaling and automation
+6. Getting started with Google Kubernetes engine
+7. Getting started with Terraform for Google Cloud
+8. Logging, Monitoring and Observability in Google Cloud
+9. Preparing for Associate Cloud Engineer Exam
 
 ## Google Cloud Engineer Learning Path
 1. Tour of Google Cloud Hands On Labs
@@ -17,3 +26,8 @@ Google Cloud Engineering Notes
 11. Perform Foundational Infrastructure Tasks in Google Cloud
 12. Setup and configure a Cloud environement in Google Cloud
 13. Automating Infrastructure on Google Cloud with Terraform
+
+## Other interesting courses from different learning paths
+
+
+
