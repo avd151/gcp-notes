@@ -27,7 +27,7 @@ Google Cloud Notes
 12. Setup and configure a Cloud environement in Google Cloud
 13. Automating Infrastructure on Google Cloud with Terraform
 
-## Other interesting courses from different learning paths
+## Questions
 
 
 
