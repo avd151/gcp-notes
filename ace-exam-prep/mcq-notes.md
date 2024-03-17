@@ -1,4 +1,16 @@
 ## Notes from questions
+
+Q1. company - all employees have google account. manage any GCE instances. all ops team members need admin access to servers. efficient deployment of credentials + access + we keep record that who is given what access ?
+- => each member of team generates new SSH key pair. add public key to their Google accnt. give compute.osAdminLogin role to ops team google group
+- way 2 also works - generate new ssh key pair. give private key to member. configre public key at project level. allow project wide public ssh keys on each instance
+- use configuration mgmt tool to deploy google group to each instance => deploy private ssh keys => more efficient
+- providing role to user/ groups => captured in audit logs => more secure
+
+Q2. custom vpc with 1 subnet. create largest subnet? 
+- => 10.0.0.0/8
+- custom vpc subnet creation => min size = /8
+- private network range defined by IETF => internal ip address ranges => 24 bit block = 10.0.0.0/8
+
 Q254. Security team member needs to see vulnerabilities, OS metadata for GCE instance having critical application 
 - => steps = OS config agent installed on instance. member given roles/osconfig.vulnerabilityReportViewer - to view vulnerability data
 - Ops agent = to collect system, application metrics, logs - monitor performance, health of applications, vm
