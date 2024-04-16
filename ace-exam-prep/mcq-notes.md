@@ -24,6 +24,7 @@ Q3. You want to select and configure a cost-effective solution for relational da
 - Cloud SQL = fully-managed relational database service - supports MySQL, PostgreSQL, and SQL Server - high availability, automatic backups, and point-in-time recovery - cost-effective solution for small sets of operational data in one geographic location
 - cloud spanner - for large amount of data and multi region (global)
 
+
 Q254. Security team member needs to see vulnerabilities, OS metadata for GCE instance having critical application 
 - => steps = OS config agent installed on instance. member given roles/osconfig.vulnerabilityReportViewer - to view vulnerability data
 - Ops agent = to collect system, application metrics, logs - monitor performance, health of applications, vm
